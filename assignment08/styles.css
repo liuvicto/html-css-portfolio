@@ -1,0 +1,59 @@
+#header {
+	background-color: gold;
+}
+
+#main {
+	background-color:lightgoldenrodyellow;
+}
+
+#content {
+	background-color: palegoldenrod;
+}
+#footer {
+	background-color: ghostwhite;
+	font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+	font-family: 'Dosis', sans-serif;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Dosis', sans-serif;
+	margin: 0;
+}
+
+p {
+	font-family: 'Nanum Myeongjo', serif;
+	margin: 0;
+}
+
+ul {
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+.breadcrumb-item {
+	font-family: 'Dosis', sans-serif;
+}
+
+.btn {
+    font-family: 'Dosis', sans-serif;	
+    margin: 5px;
+}
+
+.accordion-body {
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+.form-check-label {
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+.col-sm-2 {
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+.form-label {
+	font-family: 'Nanum Myeongjo', serif;
+}
