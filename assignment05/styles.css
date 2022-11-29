@@ -1,0 +1,127 @@
+	body {
+		width: auto;
+		background-color: green;
+		margin: 0;
+		padding: 0;
+		font-family: verdana;
+		}
+	h1 {
+		color: yellow;
+		font-size: 100px;
+		font-weight: bold;
+		margin: 0;
+		padding-top: 0px;
+		text-align: center;
+		}
+	#header {
+		background-image: url("thegoodplace.jpeg");
+		background-size: cover;
+		height: 700px;
+		margin: 0;
+		padding: 0;
+		}
+	#container {
+		width: 75%;
+		line-height: 2;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		background: #fff;
+		}
+	#footer p {
+		background: yellow;
+		color: black;
+		padding: 15px;
+		margin: 0;
+		text-align: center;
+		}
+	.floatleft {
+		float: left;
+		padding: 15px;
+	}	
+	.floatright {
+		float: right;
+		padding: 15px;
+	}
+	img {
+		height: auto;
+		width: 400px;
+	}
+	#cast {
+		width: 200px;
+		float: left;
+		padding: 0px 15px;
+		background: yellow;
+		text-align: center;
+		margin: -15px;
+		color: dimgray;
+	}
+
+	.thumbnail-container p {
+		visibility: hidden;
+	}
+
+	.thumbnail-container:hover p {
+		visibility: visible;
+	}
+
+	.thumbnail:hover {
+		opacity: 1;
+	}
+
+
+
+
+
+	#cast h2 {
+		color: dimgray;
+	}
+	#cast img {
+		width: 200px;
+		height: auto;
+	}
+	.chartxt {
+		font-style: italic;
+	}
+	.clearfloat {
+		clear: both;
+	}
+	#content {
+		width: 800px;
+		background: white;
+		float: left;
+		padding: 0px 0px;
+		margin: 30px;
+	}
+
+	#nav {
+		width: 1450px;
+		margin: 0 auto;
+		text-align: center;
+		background-color: green;
+	}
+
+	#nav a {
+		width: 235px;
+		height: 50px;
+		display: inline-block;
+		color: white;
+		font-style: verdana;
+		font-size: 21px;
+		text-decoration: none;
+		line-height: 50px;
+	}
+
+	#nav-wrapper {
+		background-color: black;
+		font-size: 0;
+	}
+
+	#nav a:hover {
+		background-color: #000;
+	}
+
+	#nav .active {
+		background-color: gray;
+		color: white;
+	}

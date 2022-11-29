@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Victor Liu | Calender</title>
+	<style>
+		body {
+			background-color: gold;
+			font-family: cursive;
+			margin: 15px;
+			padding: 15px;
+		}
+		table {
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+			border-collapse: collapse;
+		}
+		td, th {
+			width: 150px;
+			height: auto;
+			border: 1px solid;
+		}
+		th {
+			font-weight: bold;
+		}
+		td {
+			height: 150px;
+			vertical-align: top;
+			text-align: right;
+		}
+		#header {
+			background: url(images/august.jpeg);
+			height: 100%;
+			width: auto;
+			text-align: center;
+			background-size: cover;
+		}
+		#container {
+			width: 1000px;
+			margin: 0 auto;
+			background: lightgoldenrodyellow;
+		}
+		.gray {
+			background: gray;
+		}
+		.firstday {
+			font-weight: bold;
+			background: url(images/usc.jpeg) center;
+
+		}
+		.lastday {
+			font-weight: bold;
+			background: url(images/ibm.jpeg) center;
+		}
+		.birthday {
+			font-weight: bold;
+			background: url(images/birthday.jpeg) center;
+			background-size: cover;
+		}
+		td p {
+		background: black;
+			color: white;
+			width: 70%;
+			height: auto;
+			padding: 5px;
+			text-align: center;
+			border-radius: 20px;
+			margin-left: 20px;
+			margin-top: 25px;
+		}
+		h1 {
+			margin: 0px;
+		}
+
+		.birthday span {
+			color: white;
+		}
+		.lastday span {
+			color: white;
+		}
+		.firstday span {
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="container">
+	
+	<div id="header">
+		<h1>August 2022</h1>
+	</div>
+	
+		<table>
+			<tr>
+			<th>Sun</th>
+			<th>Mon</th>
+			<th>Tue</th>
+			<th>Wed</th>
+			<th>Thu</th>
+			<th>Fri</th>
+			<th>Sat</th>
+			</tr>
+
+			<tr>
+			<td class="gray"></td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			</tr>
+
+			<tr>
+			<td>7</td>
+			<td>8</td>
+			<td class="birthday"><span class="birthday">9</span><p>Victor's Birthday</p></td>
+			<td>10</td>
+			<td>11</td>
+			<td class="lastday"><span class="lastday">12</span><p>Last day of Internship</p></td>	
+			<td>13</td>		
+			</tr>
+
+			<tr>
+			<td>14</td>
+			<td>15</td>
+			<td>16</td>
+			<td>17</td>
+			<td>18</td>
+			<td>19</td>	
+			<td>20</td>		
+			</tr>
+
+			<tr>
+			<td>21</td>
+			<td class="firstday"><span class="firstday">22</span><p>First Day of Class</p></td>
+			<td>23</td>
+			<td>24</td>
+			<td>25</td>
+			<td>26</td>	
+			<td>27</td>		
+			</tr>
+
+			<tr>
+			<td>28</td>
+			<td>29</td>
+			<td>30</td>
+			<td>31</td>
+			<td class="gray"></td>
+			<td class="gray"></td>	
+			<td class="gray"></td>		
+			</tr>		
+		</table>
+	</div>
+
+
+
+
+</body>
+</html>
