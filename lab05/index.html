@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Victor Liu | Adopt-A-Doggie</title>
+	<style>
+		img {
+			width: 200px;
+			height: auto;
+		}
+		button 
+		{
+
+		}
+		main-label {
+			width: 20%;
+			float: left;
+		}
+		#message {
+			width: 25%;
+		}
+		button {
+			padding: 10px ;
+		}
+		#submit-btn {
+			background-color: #900;
+			color: white;
+		}
+		.main-label {
+			width: 200px;
+			float:left;
+
+	</style>
+</head>
+<body>
+
+<h2>Adopt-A-Doggie</h2>
+
+
+<form action="confirmation.html">
+			<div class="form-row">
+				<label class="main-label" for="firstname">First Name:</label>
+				<input id="firstname" type="text" placeholder="John" required />
+			</div> 
+
+			<div class="form-row">
+				<label class="main-label" for="lastname">Last Name:</label>
+				<input id="lastname" type="text" placeholder="Doe" required />
+			</div>
+
+			<div class="form-row">
+				<label class="main-label" for="email">Email:</label>
+				<input id="email" type="email" placeholder="johndoe123@gmail.com" required />
+			</div> 
+
+			<div class="form-row">
+				<label class="main-label" for="phone">Phone:</label>
+				<input id="phone" type="number" placeholder="(123) 456-7890" required />
+			</div>
+
+			<div class="form-row">
+				<label class="main-label">How many previous pets have you owned?</label>
+
+				
+				<input id="no-pet" type="radio" name="petowner" value="Zero" />
+				<label for="no-pet">
+					0
+				</label>
+				
+
+				<input id="one-pet" type="radio" name="petowner" value="One" />
+				<label for="one-pet">
+					1
+				</label>
+
+				<input id="two-pets" type="radio" name="petowner" value="TwoPlus" />
+				<label for="two-pets">
+					2+
+				</label>
+
+			</div>
+
+			<div class="form-row">
+				<label class="main-label">Which one do you want?</label>
+
+				
+				<input id="buyoption-1" type="checkbox" value="option-1" />
+				<label for="buyoption-1">
+					Option 1
+				</label>
+
+				
+				<input id="buyoption-2" type="checkbox" value="option-2" />
+				<label for="buyoption-2">
+					Option 2
+				</label>
+
+				
+				<input id="buyoption-3" type="checkbox" value="option-3" />
+				<label for="buyoption-3">
+					Option 3
+				</label>
+
+			</div> 
+
+			<div class="form-row">
+				<label class="main-label" for="gender-choice">Gender of Choice</label>
+
+				<select id="gender-choice">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="no-preference">No Preference</option>
+				</select>
+			</div>
+
+			<div class="form-row">
+				<label class="main-label" for="message">Explain why you are a good pet owner:</label>
+				<textarea id="message" placeholder="Enter any comments here..." required></textarea>
+			</div> 
+
+			<div class="form-row">		
+				<input id="accept" type="checkbox" value="accept" required/>
+				<label for="accept">
+					I accept the terms and conditions
+				</label>
+			</div>
+
+			<div class="form-row">
+				<button id="submit-btn" type="submit">Submit</button>
+				<button id="reset" type="reset">Reset</button>
+			</div>
+
+		</form>
+		
+		<hr>
+		<img src= "images/doberman.jpeg" alt="Doberman" />
+		<p>Option A</p>
+		<img src= "images/poodle.jpeg" alt="Poodle" />
+		<p>Option B</p>
+		<img src= "images/weinerdog.jpeg" alt="Weinerdog" />
+		<p>Option C</p>
+</body>
+</html>
