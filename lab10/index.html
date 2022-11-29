@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Victor Liu | Animation</title>
+
+	<style>
+
+
+		h1 {
+			text-align: center;
+			color: gold;
+
+		}
+
+		body {
+			background: url("img/oscars.jpeg");
+			background-size: cover;
+
+		}
+
+		.speechbubble {
+			position: relative;
+			background-color: white;
+			border-radius: 100%;
+			width: 200px;
+			padding: 25px;
+			text-align: center;
+		}
+
+		#kid-container {
+			height: 570px;
+			position: relative;
+		}
+
+		#kid {
+			position: absolute;
+			bottom: 50px;
+		
+		}
+
+		@keyframes kid {
+			0% {margin-left: 0px;}
+			100% {margin-left: 1000px;}
+		}
+
+		img, .speechbubble {
+			animation: kid 5s linear infinite;
+		}
+
+		.speechbubble {
+			position: relative;
+			background: dimgray;
+			border-radius: .4em;
+			width: 150px;
+			color: white;
+			padding: 25px;
+
+
+		}
+
+		.speechbubble:after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 55%;
+			top: 60%;
+			width: 0;
+			height: 0;
+			border: 45px solid transparent;
+			border-top-color: dimgray;
+			border-bottom: 10px;
+
+		}
+
+	</style>
+</head>
+
+<body>
+	<div id="container">
+		<h1> Animation </h1>
+
+
+		<div id="kid-container">
+		<div id="kid">
+		<div class="speechbubble">Just beat it, just beat it</div>
+		<img src="img/moonwalking.gif" alt="Kid Walking" id="kidwalking" />
+		</div>
+		</div>
+
+
+	</div>
+</body>
+</html>

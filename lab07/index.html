@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Victor Liu | Image Puzzle</title>
+	<style>
+		body {
+			margin: 0 auto;
+			background: purple;
+			background-size: cover;
+		}
+		
+		#gallery-container {
+			background: rgba(0,0,0,.7);
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 35px;
+		}
+
+		#gallery {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			position: relative;
+		}
+
+		h1 {
+			font-size: 50px;
+			text-shadow: 2px 2px red;
+			color: brown;
+			text-align: center;
+		}
+
+		.row1col1 {
+			position: relative;
+			top: 15px;
+			left: -10px;
+			z-index: 1;
+			box-shadow: 2px 2px 100px blue;
+		}
+
+		.row1col3 {
+			position: relative;
+			top: -15px;
+			right: -10px;
+			z-index: 1;
+			box-shadow: 2px 2px 100px blue;
+		}
+
+		.row2col1 {
+			position: relative;
+			top: 15px;
+			left: 15px;
+			z-index: 1;
+			box-shadow: 2px 2px 100px blue;
+		}
+
+		.row2col2 {
+			position: relative;
+			top: 15px;
+			right: 15px;
+			z-index: 1;
+			box-shadow: 2px 2px 100px blue;
+		}
+
+		.row3col1 {
+			position: relative;
+			top: 15px;
+			left: 15px;
+			z-index: 1;
+			box-shadow: 2px 2px 100px blue;
+		}
+
+		.row3col3 {
+			position: relative;
+			bottom: 15px;
+			right: 15px;
+			z-index: 1;
+			box-shadow: 2px 2px 20px blue;
+		}
+
+		.clearfloat {
+			clear:both;
+		}
+
+
+	</style>
+</head>
+<body>
+	<h1>Snoop Dogg!!</h1>
+
+	<div id="gallery-container">
+
+	<div id="gallery">
+		<img src="images/row-1-column-1.jpg" alt="row1col1" class="row1col1">
+		<img src="images/row-1-column-2.jpg" alt="row1col2">
+		<img src="images/row-1-column-3.jpg" alt="row1col3" class="row1col3">
+		<img src="images/row-2-column-1.jpg" alt="row2col1" class="row2col1">
+		<img src="images/row-2-column-2.jpg" alt="row2col2" class="row2col2">
+		<img src="images/row-2-column-3.jpg" alt="row2col3">
+		<img src="images/row-3-column-1.jpg" alt="row3col1" class="row3col1">
+		<img src="images/row-3-column-2.jpg" alt="row3col2">
+		<img src="images/row-3-column-3.jpg" alt="row3col3" class="row3col3">
+	</div>
+	<div class="clearfloat"></div>
+	</div>
+</body>
+
+</html>

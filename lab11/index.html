@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Victor Liu | Simple Image Gallery</title>
+<link href="lightbox/css/lightbox.css" rel="stylesheet" />
+
+<style>
+	body {
+		margin: 0px;
+		background-image: url('images/cool.jpeg');
+		background-size: cover;
+	}
+	h1 {
+		margin: 15px;
+	}
+
+	#header {
+		background-image: url('images/traveling.jpeg');
+		height: 400px;
+		background-size: cover;
+		background-position: bottom;
+		color: white;
+		font-size: 2em;
+		text-align: center;
+		line-height: 500px;
+		text-shadow: 5px 5px 5px black;
+	}
+		
+	#content {
+		width: 950px;
+		line-height:1.5;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		}
+	
+	#gallery {margin:0 5%;}
+
+	.thumbnail-container {
+		float: left;
+		text-align: center;
+	}
+
+	.thumbnail-container p {
+		visibility: hidden;
+	}
+
+
+	.thumbnail-container:hover p {
+		visibility: visible;
+	}	
+
+	.thumbnail {
+		background-color: lightgreen;
+		width: 250px; 
+		height: 250px;
+		margin: 15px;
+		border: 1px solid #000;
+		overflow: hidden;
+		opacity: .5;	
+		border-radius: 100%;
+		
+	}
+
+	.thumbnail:hover {
+		opacity: 1;
+	}
+		
+	.thumbnail-img {
+		width: auto;
+		height: 100%;
+	}
+
+	.width-100 {
+		width: 100%;
+		height: auto;
+	}
+
+	.clearfloat {
+		clear: both;
+	}
+
+	p {
+		color: white;
+		font: italic;
+	}
+
+	</style>
+
+</head>
+<body>
+
+<div id="header">
+<h1>Cool Places I've Been To</h1>
+</div>
+
+<div id="content">
+
+<div id="gallery">
+
+<div class="thumbnail-container">
+	<div class="thumbnail">
+					<a href="images/yellowstone.webp" data-lightbox="Yellow Stone" data-title="Yellow Stone">
+						<img class="thumbnail-img" src="images/yellowstone.webp" alt="Yellow Stone">
+					</a>
+	</div> 
+	<p>Yellow Stone</p>
+</div>
+
+<div class="thumbnail-container">
+	<div class="thumbnail">
+					<a href="images/josephinepeak.jpeg" data-lightbox="Josephine Peak" data-title="Josephine Peak">
+						<img class="width-100" src="images/josephinepeak.jpeg" alt="Josephine Peak">
+					</a>
+	</div> 
+	<p>Josephine Peak</p>
+</div>
+
+<div class="thumbnail-container">
+	<div class="thumbnail">
+					<a href="images/mountlowe.jpeg" data-lightbox="Mount Lowe" data-title="Mount Lowe">
+						<img class="thumbnail-img" src="images/mountlowe.jpeg" alt="Mount Lowe Railroad">
+					</a>
+	</div> 
+	<p>Mount Lowe</p>
+</div>
+
+	<div class="clearfloat"></div>
+<div class="thumbnail-container">
+	<div class="thumbnail">
+					<a href="images/mountwilson.webp" data-lightbox="Mount Wilson" data-title="Mount Wilson">
+						<img class="thumbnail-img" src="images/mountwilson.webp" alt="Mount Wilson">
+					</a>
+	</div> 
+	<p>Mount Wilson</p>
+</div>
+
+<div class="thumbnail-container">
+	<div class="thumbnail">
+					<a href="images/vasquezrocks.jpeg" data-lightbox="Vasquez Rocks" data-title="Vasquez Rocks">
+						<img class="thumbnail-img" src="images/vasquezrocks.jpeg" alt="Vasquez Rocks">
+					</a>
+	</div> 
+	<p>Vasquez Rocks</p>
+</div>
+
+</div> 
+
+</div> 
+
+<script src="lightbox/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
